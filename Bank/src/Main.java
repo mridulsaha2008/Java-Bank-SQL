@@ -581,7 +581,7 @@ class Bank {
 public class Main {
     void main() {
         try {
-            String url = "jdbc:mysql://(IP-ADDRESS):9203/bank";
+            String url = "jdbc:mysql://(IP-ADDRESS):(PORT-NUMBER)/bank";
             String user = "USERNAME";
             String pass = "PASSWORD";
             Connection con = DriverManager.getConnection(url, user, pass);
@@ -609,4 +609,5 @@ public class Main {
         }
     }
 }
+
 
