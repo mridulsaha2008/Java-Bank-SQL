@@ -57,7 +57,3 @@ BEGIN
         WHERE ACCOUNT_NUMBER = NEW.ACCOUNT_NUMBER;
     END IF;
 END;
-
-select * from LOGIN_INFO;
-select * from customer;
-select * from transaction;
